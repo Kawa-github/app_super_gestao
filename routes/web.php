@@ -22,6 +22,8 @@ Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contat
 Route::post('/contato', [ContatoController::class, 'contato'])->name('site.contato');
 Route::get('/login', function(){return 'Login';})->name('site.login');
 
+//1
+
 Route::prefix('/app')->group(function() {
     Route::get('/clientes', function(){return 'Clientes';})->name('app.clientes');
     Route::get('/fornecedores', [FornecedorController::class, 'index'])->name('app.fornecedores');
