@@ -8,7 +8,7 @@
 
                 <div class="informacao-pagina">
                     <div class="contato-principal">
-                        @component('site.layouts._components.form_contato', ['classe' => 'borda-preta'])
+                        @component('site.layouts._components.form_contato', ['classe' => 'borda-preta', 'motivo_contato' => $motivo_contato])
                         
                         <p>Lorem ipsum dolor sit amet consectetur    
                         adipisicing elit. Rerum impedit voluptatem dolorem possimus vero quisquam maiores ratione odit totam commodi qui modi sequi repellat voluptates, magni eos, unde voluptatibus quo.</p>
